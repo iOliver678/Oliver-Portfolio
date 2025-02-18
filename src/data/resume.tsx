@@ -123,7 +123,7 @@ export const DATA = {
       dates: "December 2024 - January 2025",
       active: true,
       description:
-        "The **LED Leaderboard** is a **real-time, interactive display** that showcases top performers on a **coding leaderboard**. Designed for **competitions, hackathons, and study groups**, it dynamically updates to highlight rankings, motivating participants to push their skills further. With **vibrant LED visuals** and **seamless integration**, it adds a **gamified edge** to coding challenges, making progress tracking more engaging and competitive.",
+        "The **LED Leaderboard** is a **real-time LeetCode tracking system** that enables club members to register and compete. It integrates with **LeetCode's GraphQL API** and uses a **FastAPI backend** to track members' progress and statistics. This gamified approach transforms individual LeetCode practice into an engaging, competitive experience, fostering a more interactive and motivating environment for improving coding skills.",
       technologies: [
         "Python",
         "FastAPI",
@@ -149,7 +149,7 @@ export const DATA = {
       dates: "October 2024 - November 2024",
       active: true,
       description:
-        "**Reverse Rate My Professor** is a **web app for SJSU students** that simplifies the process of finding the best professors for their courses. Instead of searching for professors manually, students can **enter a course name and instantly see a **ranked list of professors** based on reviews and ratings. By automating professor selection, the platform helps students make **informed decisions** about their schedules, ensuring they get the best possible learning experience.",
+        "**Reverse Rate My Professor** is a **web app for SJSU students** that simplifies the process of finding the best professors for their courses. Instead of searching for professors manually, students can **enter a course name** and instantly see a **ranked list of professors** based on reviews and ratings. By automating professor selection, the platform helps students make **informed decisions** about their schedules, ensuring they get the best possible learning experience.",
       technologies: [
         "React",
         "Java",
