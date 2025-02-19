@@ -28,6 +28,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
+    { href: "/Oliver-Majano-Resume-2025.pdf", icon: NotebookIcon, label: "Resume" },
   ],
   contact: {
     email: "olivermajano01@gmail.com",
@@ -70,7 +71,7 @@ export const DATA = {
     {
       company: "Software and Computer Engineering Society",
       badges: [],
-      href: "https://shopify.com",
+      href: "https://sce.sjsu.edu",
       location: "Remote",
       title: "Software Engineer Intern Lead",
       logoUrl: "/SCE_Logo.png",
@@ -197,7 +198,7 @@ export const DATA = {
   hackathons: [
     {
       title: "CalHacks 11.0",
-      dates: "October 18-20, 2023",
+      dates: "October 18-20, 2024",
       location: "Berkeley, CA",
       description:
         "Developed NutriLens AR, a Snapchat Lens that provides real-time nutritional insights while cooking using computer vision and augmented reality.",
@@ -212,28 +213,28 @@ export const DATA = {
     },
     {
       title: "SF Hacks",
-      dates: "April 4-6, 2024",
+      dates: "April 4-6, 2025",
       location: "San Francisco, CA",
       description:
-        "Upcoming hackathon at San Francisco State University focused on creating impactful solutions using cutting-edge technologies.",
+        "Upcoming hackathon I will be attending at San Francisco State University.",
       image: "/sfhacks.png",
       links: [],
     },
     {
       title: "HackDavis",
-      dates: "April 19-21, 2024",
+      dates: "April 19-21, 2025",
       location: "Davis, CA",
       description:
-      "Upcoming hackathon at UC Davis focused on creating technology for social good.",
+        "Upcoming hackathon I will be attending at UC Davis.",
       image: "/hackdavis-logo.png",
       links: [],
     },
     {
       title: "LA Hacks",
-      dates: "April 25-27, 2024",
+      dates: "April 25-27, 2025",
       location: "Los Angeles, CA",
       description:
-        "Upcoming hackathon at UCLA where I'll be working with a team to build an innovative project over 36 hours.",
+        "Upcoming hackathon I will be attending at UCLA.",
       image: "/lahacks_logo.jpeg",
       links: [],
     },
