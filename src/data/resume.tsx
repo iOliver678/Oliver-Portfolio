@@ -86,9 +86,7 @@ export const DATA = {
       school: "San Jose State University",
       href: "https://sjsu.edu",
       degree: "Bachelor's Degree of Computer Science (BCS)",
-      logoUrl: "/sjsu.png",
-      start: "2023",
-      end: "2027",
+      logoUrl: "/sjsu.png"
     },
   ],
   projects: [
