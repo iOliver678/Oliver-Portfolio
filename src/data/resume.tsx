@@ -57,16 +57,16 @@ export const DATA = {
 
   work: [
     {
-      company: "SJSU College of Engineering",
-      href: "https://sjsu.edu",
+      company: "Salesforce",
       badges: [],
-      location: "San Jose, CA",
-      title: "SWE Intern",
-      logoUrl: "/sjsu.png",
-      start: "July 2024",
-      end: "June 2024",
+      href: "https://salesforce.com",
+      location: "San Francisco, CA",
+      title: "Software Engineering Fellow",
+      logoUrl: "/salesforce_logo.png",
+      start: "June 2025",
+      end: "July 2025",
       description:
-        "Developed and deployed a URL shortening service using FastAPI, SQLite, Docker, and React for a club with 500+ users. Designed a scalable backend architecture using SQLite for efficient URL storage and HTTP 302 redirection. Implemented a responsive frontend using React, ensuring seamless user interaction and fast loading times. Tracked performance metrics such as redirect response times and error rates to improve system reliability.",
+        "Upcoming internship with Salesforce x CodePath Futureforce Tech Launchpad. Will be working on a project with the Salesforce team to help them build a new product.",
     },
     {
       company: "Software and Computer Engineering Society",
@@ -78,7 +78,19 @@ export const DATA = {
       start: "December 2024",
       end: "January 2025",
       description:
-        "Led a club internship, managing a team of 4 software engineering students to develop a dynamic leaderboard for 100+ users. Queried LeetCode's GraphQL API to track user stats weekly, storing progress in an SQLite database for persistence. Developed a FastAPI backend to process requests, update rankings, and serve real-time leaderboard data. Engineered a Raspberry Pi system with a HUB75 HAT, chaining four LED panels for dynamic leaderboard display. Designed a frontend with user registration, real-time previews, and an admin dashboard for user management and rankings.",
+      "Led a club internship, managing a team of 4 software engineering students to develop a dynamic leaderboard for 100+ users. Queried LeetCode's GraphQL API to track user stats weekly, storing progress in an SQLite database for persistence. Developed a FastAPI backend to process requests, update rankings, and serve real-time leaderboard data. Engineered a Raspberry Pi system with a HUB75 HAT, chaining four LED panels for dynamic leaderboard display. Designed a frontend with user registration, real-time previews, and an admin dashboard for user management and rankings.",
+    },
+    {
+      company: "SJSU College of Engineering",
+      href: "https://sjsu.edu",
+      badges: [],
+      location: "San Jose, CA",
+      title: "Software Engineering Intern",
+      logoUrl: "/sjsu.png",
+      start: "July 2024",
+      end: "June 2024",
+      description:
+        "Developed and deployed a URL shortening service using FastAPI, SQLite, Docker, and React for a club with 500+ users. Designed a scalable backend architecture using SQLite for efficient URL storage and HTTP 302 redirection. Implemented a responsive frontend using React, ensuring seamless user interaction and fast loading times. Tracked performance metrics such as redirect response times and error rates to improve system reliability.",
     },
   ],
   education: [
@@ -93,9 +105,33 @@ export const DATA = {
   ],
   projects: [
     {
+      title: 'A.V.A.',
+      href: "https://devpost.com/software/ava-zamdu0?ref_content=my-projects-tab&ref_feature=my_projects",
+      dates: "HackHayward 2025",
+      active: true,
+      description:
+       "**A.V.A. (Advanced Virtual Assistant)** is a voice-controlled browser automation tool that enables hands-free web navigation. It leverages **multi-stage AI agents**, **speech recognition**, and **text-to-speech** to interpret commands and execute tasks efficiently, making web interactions seamless and accessible.​",
+      technologies: [
+        "Python",
+        "FastAPI",
+        "LangChain",
+        "Browser-Use",
+        "Groq",
+        "Perplexity"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://devpost.com/software/ava-zamdu0?ref_content=my-projects-tab&ref_feature=my_projects",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      video: "./ava.mp4",
+    },
+    {
       title: "Canvai",
       href: "https://canvai.app",
-      dates: "Jan 2024 - Feb 2024",
+      dates: "Jan 2025 - March 2025",
       active: true,
       description:
         "**Canvai** is a **Chrome extension** that enhances the **Canvas LMS experience** by integrating **Gemini AI** to automate tasks and improve workflow. It helps students streamline coursework, manage assignments more efficiently, and reduce repetitive actions. With AI-powered assistance, Canvai makes navigating Canvas **faster, smarter, and more intuitive**.",
@@ -145,6 +181,32 @@ export const DATA = {
       video: "/led-front.mp4",
     },
     {
+      title: "NutriLense",
+      href: "https://devpost.com/software/nutrilens-1u9jo4#updates",
+      dates: "CalHacks 11",
+      active: true,
+      description:
+      "**NutriLens AR** uses **Snapchat Spectacles and AI** to provide **real-time nutritional insights** while cooking. By analyzing food through video capture, it overlays **macros and nutritional facts** in augmented reality, making meal tracking **seamless and interactive**.",
+      technologies: [
+        "Snapchat Spectacles",
+        "Snapchat Lens Studio",
+        "Python",
+        "TypeScript",
+        "FastAPI"
+        
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://devpost.com/software/nutrilens-1u9jo4#updates",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+      "/NutriLense.mp4",
+    },
+    {
       title: "SJSU Reverse Rate My Professor",
       href: "https://github.com/iOliver678/rrmp-init/blob/main/README.md",
       dates: "October 2024 - November 2024",
@@ -167,33 +229,7 @@ export const DATA = {
       ],
       image: "/rrmp.gif",
       video:"",
-    },
-    {
-      title: "NutriLense",
-      href: "https://devpost.com/software/nutrilens-1u9jo4#updates",
-      dates: "CalHacks 11",
-      active: true,
-      description:
-        "**NutriLens AR** uses **Snapchat Spectacles and AI** to provide **real-time nutritional insights** while cooking. By analyzing food through video capture, it overlays **macros and nutritional facts** in augmented reality, making meal tracking **seamless and interactive**.",
-      technologies: [
-        "Snapchat Spectacles",
-        "Snapchat Lens Studio",
-        "Python",
-        "TypeScript",
-        "FastAPI"
-        
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://devpost.com/software/nutrilens-1u9jo4#updates",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "/NutriLense.mp4",
-    },
+    }
   ],
   hackathons: [
     {
@@ -208,6 +244,20 @@ export const DATA = {
           title: "Devpost",
           icon: <Icons.globe className="h-4 w-4" />,
           href: "https://devpost.com/software/nutrilens-1u9jo4#updates",
+        },
+      ],
+    },
+    {
+      title: "HackHayward",
+      dates: "March 1-2, 2025",
+      location: "Hayward, CA",
+      description: "Lead my team to win best use of Groq. Developed AVA, Accessible Voice Assistant that uses LLMs to fully automate browser tasks using voice commands.",
+      image: "/hackhayward_logo.jpeg",
+      links: [
+        {
+          title: "Devpost",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://devpost.com/software/ava-zamdu0?ref_content=my-projects-tab&ref_feature=my_projects",
         },
       ],
     },
