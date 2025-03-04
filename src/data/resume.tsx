@@ -126,6 +126,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
+      image: "",
       video: "./ava.mp4",
     },
     {
