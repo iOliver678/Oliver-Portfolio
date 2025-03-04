@@ -110,7 +110,7 @@ export const DATA = {
       dates: "HackHayward 2025",
       active: true,
       description:
-       "**A.V.A. (Advanced Virtual Assistant)** is a voice-controlled browser automation tool that enables hands-free web navigation. It leverages **multi-stage AI agents**, **speech recognition**, and **text-to-speech** to interpret commands and execute tasks efficiently, making web interactions seamless and accessible.​",
+       "**A.V.A. (Accesible Voice Assistant)** is a voice-controlled browser automation tool that enables hands-free web navigation. It leverages **multi-stage AI agents**, **speech recognition**, and **text-to-speech** to interpret commands and execute tasks efficiently, making web interactions seamless and accessible.​",
       technologies: [
         "Python",
         "FastAPI",
