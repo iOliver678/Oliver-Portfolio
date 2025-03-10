@@ -11,7 +11,7 @@ export const DATA = {
     "Computer Science student passionate about building impactful projects and helping others grow. Officer at SCE SJSU. Always learning, always improving. Active on LinkedIn.",
   summary:
     "At the beginning of 2024, I joined the Software and Computer Engineering (SCE) club at SJSU, where I took on leadership roles to help students accelerate their careers in tech. Since then, I've worked on multiple software projects, including Canvai, a startup project I'm currently building to provide better tools for the CS community. In the past, I've interned with SJSU's College of Engineering, led a team of developers to build a club project, and competed in hackathons. I also have experience working across both frontend and backend development, and I'm passionate about building impactful software and scaling projects from the ground up. Currently, I'm focused on growing as an engineer, expanding my personal brand, and pursuing opportunities to break into the industry.",
-  avatarUrl: "/oliver.png",
+  avatarUrl: "/oliver.jpg",
   skills: [
     "Python",
     "Next.js",
