@@ -64,7 +64,7 @@ export const DATA = {
       title: "Software Engineering Fellow",
       logoUrl: "/salesforce_logo.png",
       start: "June 2025",
-      end: "July 2025",
+      end: "August 2025",
       description:
         "Upcoming internship with Salesforce x CodePath Futureforce Tech Launchpad. Will be working on a project with the Salesforce team to help them build a new product.",
     },
@@ -230,6 +230,27 @@ export const DATA = {
       ],
       image: "/rrmp.gif",
       video:"",
+    },
+    {
+      title: "Url Shortener",
+      href: "https://github.com/iOliver678/urlShortener",
+      dates: "SCE Internship",
+      active: true,
+      description:
+        "**Url Shortener** is a **web app** that allows users to **shorten** long URLs into **short URLs**. It uses a **FastAPI backend** to store and retrieve URLs, and a **React frontend** to display the shortened URLs.",
+      technologies: [
+        "FastAPI",
+        "SQLite",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/iOliver678/urlShortener",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/url-shortener.png",
+      video: "",
     }
   ],
   hackathons: [
@@ -261,15 +282,6 @@ export const DATA = {
           href: "https://devpost.com/software/ava-zamdu0?ref_content=my-projects-tab&ref_feature=my_projects",
         },
       ],
-    },
-    {
-      title: "SF Hacks",
-      dates: "April 4-6, 2025",
-      location: "San Francisco, CA",
-      description:
-        "Upcoming hackathon I will be attending at San Francisco State University.",
-      image: "/sfhacks.png",
-      links: [],
     },
     {
       title: "HackDavis",
