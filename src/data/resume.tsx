@@ -233,8 +233,7 @@ export const DATA = {
     },
     {
       title: "Url Shortener",
-      href: "https://github.com/iOliver678/urlShortener",
-      dates: "SCE Internship",
+      dates: " ",
       active: true,
       description:
         "**Url Shortener** is a **web app** that allows users to **shorten** long URLs into **short URLs**. It uses a **FastAPI backend** to retrieve URLs, stored in an **SQLite database**, and a **React frontend** to display the shortened URLs.",
@@ -243,13 +242,6 @@ export const DATA = {
         "FastAPI",
         "SQLite",
         "React",
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/iOliver678/urlShortener",
-          icon: <Icons.github className="size-3" />,
-        },
       ],
       image: "/url-shortener.png",
       video: "",
