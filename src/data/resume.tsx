@@ -237,10 +237,12 @@ export const DATA = {
       dates: "SCE Internship",
       active: true,
       description:
-        "**Url Shortener** is a **web app** that allows users to **shorten** long URLs into **short URLs**. It uses a **FastAPI backend** to store and retrieve URLs, and a **React frontend** to display the shortened URLs.",
+        "**Url Shortener** is a **web app** that allows users to **shorten** long URLs into **short URLs**. It uses a **FastAPI backend** to retrieve URLs, stored in an **SQLite database**, and a **React frontend** to display the shortened URLs.",
       technologies: [
+        "Python",
         "FastAPI",
         "SQLite",
+        "React",
       ],
       links: [
         {
