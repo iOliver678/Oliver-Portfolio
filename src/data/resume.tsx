@@ -61,12 +61,12 @@ export const DATA = {
       badges: [],
       href: "https://salesforce.com",
       location: "San Francisco, CA",
-      title: "FTL Software Engineering Intern",
+      title: "FTL Software Engineer Intern",
       logoUrl: "/salesforce_logo.png",
       start: "June 2025",
       end: "August 2025",
       description:
-        "Upcoming internship with Salesforce x CodePath Futureforce Tech Launchpad. Will be working on a project with the Salesforce team to help them build a new product.",
+        "Upcoming internship with Salesforce x CodePath Futureforce Tech Launchpad.",
     },
     {
       company: "Software and Computer Engineering Society",
@@ -85,7 +85,7 @@ export const DATA = {
       href: "https://sjsu.edu",
       badges: [],
       location: "San Jose, CA",
-      title: "Software Engineering Intern",
+      title: "Software Engineer Intern",
       logoUrl: "/sjsu.png",
       start: "July 2024",
       end: "June 2024",
