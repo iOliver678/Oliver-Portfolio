@@ -28,7 +28,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/resume.png", icon: FileIcon, label: "Resume" },
+    { href: "/resume.pdf", icon: FileIcon, label: "Resume" },
   ],
   contact: {
     email: "olivermajano01@gmail.com",
