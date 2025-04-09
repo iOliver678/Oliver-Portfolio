@@ -28,7 +28,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/resume.pdf", icon: FileIcon, label: "Resume" },
+    { href: "/resume.png", icon: FileIcon, label: "Resume" },
   ],
   contact: {
     email: "olivermajano01@gmail.com",
@@ -61,7 +61,7 @@ export const DATA = {
       badges: [],
       href: "https://salesforce.com",
       location: "San Francisco, CA",
-      title: "Software Engineering Fellow",
+      title: "FTL Software Engineering Intern",
       logoUrl: "/salesforce_logo.png",
       start: "June 2025",
       end: "August 2025",
