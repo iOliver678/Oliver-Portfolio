@@ -8,23 +8,30 @@ export const DATA = {
   location: "San Jose, CA",
   locationLink: "https://www.google.com/maps/place/sanjose",
   description:
-    "Computer Science student passionate about building impactful projects and helping others grow. Officer at SCE SJSU. Always learning, always improving. Active on LinkedIn.",
+    "Computer Science student passionate about building impactful projects and helping others grow. President of SCE SJSU. Always learning, always improving. Active on LinkedIn.",
   summary:
-    "At the beginning of 2024, I joined the Software and Computer Engineering (SCE) club at SJSU, where I took on leadership roles to help students accelerate their careers in tech. Since then, I've worked on multiple software projects, including Canvai, a startup project I'm currently building to provide better tools for the CS community. In the past, I've interned with SJSU's College of Engineering, led a team of developers to build a club project, and competed in hackathons. I also have experience working across both frontend and backend development, and I'm passionate about building impactful software and scaling projects from the ground up. Currently, I'm focused on growing as an engineer, expanding my personal brand, and pursuing opportunities to break into the industry.",
-  avatarUrl: "/oliver.jpg",
+    "At the beginning of 2024, I joined the Software and Computer Engineering (SCE) club at SJSU, where I’ve been heavily involved in leadership and community building. As President, I focus on creating opportunities for students to grow, network, and gain real-world skills through workshops, events, and industry connections. I’m deeply interested in AI, multi-context protocols (MCP), and the ways intelligent systems can integrate with real-world workflows. My work blends backend and frontend development with a focus on building secure, scalable, and impactful software. I’ve had the opportunity to intern at Salesforce, where I worked on AI-driven integrations and enterprise-grade systems, and I continue to explore how AI can reshape productivity and user experiences. Looking forward, my goals are to keep advancing my technical expertise, grow as a leader in the SCE community, and build a strong foundation for a long-term career in software engineering — with a particular focus on AI innovation and systems that scale.",
+  avatarUrl: "/pfp.jpg",
   skills: [
     "Python",
+    "TypeScript",
+    "JavaScript",
     "Next.js",
     "React",
-    "JavaScript",
-    "Java",
     "FastAPI",
-    "Figma",
-    "MySQL",
-    "Postgres",
+    "FastMCP",
+    "AI/ML Integration",
+    "Supabase",
+    "PostgreSQL",
     "SQLite",
     "Docker",
     "TailwindCSS",
+    "Java",
+    "Spring Boot",
+    "Raspberry Pi",
+    "GraphQL",
+    "Git",
+    "Figma",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -61,18 +68,18 @@ export const DATA = {
       badges: [],
       href: "https://salesforce.com",
       location: "San Francisco, CA",
-      title: "FTL Software Engineer Intern",
+      title: "Software Engineer Intern",
       logoUrl: "/salesforce_logo.png",
       start: "June 2025",
       end: "August 2025",
       description:
-        "Upcoming internship with Salesforce x CodePath Futureforce Tech Launchpad.",
+      "Built an internal MCP server to connect with Salesforce-managed databases, enabling dynamic role-based data modifications. Prototyped a data orchestration layer showing how MCP endpoints can streamline AI-driven CRM workflows. Engineered Slack and Gmail integrations to automatically surface key sales insights from unstructured communications, delivering a functional prototype to platform engineering leadership while meeting security and integration standards.",
     },
     {
       company: "Software and Computer Engineering Society",
       badges: [],
       href: "https://sce.sjsu.edu",
-      location: "Remote",
+      location: "San Jose, CA",
       title: "Software Engineer Intern Lead",
       logoUrl: "/SCE_Logo.png",
       start: "December 2024",
@@ -104,6 +111,31 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "Nova",
+      href: "https://nova-ai.up.railway.app/",
+      dates: "March 2025 - April 2025",
+      active: true,
+      description:
+        "Nova is an **AI-powered chatbot platform** designed to retrieve and synthesize information from multiple connected data sources in real time. It leverages an **MCP client–server framework** to handle data aggregation and insight generation, supporting multi-user workspaces with live updates. The system’s optimized processing workflow reduced average end-to-end latency from **210 seconds to 65 seconds**, enabling faster, more responsive interactions. Built with a focus on scalability, security, and seamless multi-source integration.",
+      technologies: [
+        "React",
+        "FastMCP",
+        "Python",
+        "Express",
+        "FastAPI",
+        "Supabase"
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://nova-ai.up.railway.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/dashboard-nova.png",
+      video: "",
+    },    
     {
       title: 'A.V.A.',
       href: "https://devpost.com/software/ava-zamdu0?ref_content=my-projects-tab&ref_feature=my_projects",
@@ -208,6 +240,59 @@ export const DATA = {
       "/NutriLense.mp4",
     },
     {
+      title: "Nova Performance Dashboard",
+      href: "",
+      dates: "April 2025",
+      active: true,
+      description:
+        "The **Nova Performance Dashboard** is a real-time monitoring tool designed to track and visualize the performance of Nova’s key components over time. It displays latency trends for services such as **Slack MCP**, **Gmail MCP**, **Gmail API**, **Personality**, and **Einstein**, helping identify bottlenecks and measure optimization impact. The dashboard was instrumental in validating workflow improvements, including the reduction of average end-to-end latency from **210 seconds to 65 seconds** after migrating from Gmail MCP to Gmail API. Built with interactive filtering and historical tracking to support ongoing performance analysis.",
+      technologies: [
+        "React",
+        "Chart.js",
+        "FastAPI",
+        "Supabase",
+        "FastMCP"
+      ],
+      links: [{
+        type: "Source",
+        href: "https://github.com/iOliver678/nova-performance",
+        icon: <Icons.github className="size-3" />,
+      }],
+      image: "/performancedash.png",
+      video: "",
+    },    
+    {
+      title: "medLM",
+      href: "https://med-lm.vercel.app/",
+      dates: "HackDavis 2025",
+      active: true,
+      description:
+        "**medLM** is an **equality-focused healthcare platform** that eliminates racial bias through anonymized consultations where providers can't see patient race. It ensures all patients receive equal medication recommendations and care options regardless of background, creating a safe space for communities historically mistreated by medical institutions. The platform tracks health data to identify and correct treatment disparities while empowering patients from marginalized communities to advocate for appropriate care.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Python",
+        "Gemini AI",
+        "Letta",
+        "Shadcn",
+        "Vercel"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://med-lm.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Devpost",
+          href: "https://devpost.com/software/medlm",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/medlm.png",
+      video: "",
+    },
+    {
       title: "SJSU Reverse Rate My Professor",
       href: "https://github.com/iOliver678/rrmp-init/blob/main/README.md",
       dates: "October 2024 - November 2024",
@@ -290,18 +375,16 @@ export const DATA = {
       dates: "April 19-21, 2025",
       location: "Davis, CA",
       description:
-        "Upcoming hackathon I will be attending at UC Davis.",
+        "Developed medLM, an equality-focused healthcare platform that eliminates racial bias through anonymized consultations and ensures equal medication recommendations regardless of background. Built with Next.js, Python, and Gemini AI to combat healthcare disparities.",
       image: "/hackdavis-logo.png",
-      links: [],
+      links: [
+        {
+          title: "Devpost",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://devpost.com/software/medlm",
+        },
+      ],
     },
-    {
-      title: "LA Hacks",
-      dates: "April 25-27, 2025",
-      location: "Los Angeles, CA",
-      description:
-        "Upcoming hackathon I will be attending at UCLA.",
-      image: "/lahacks_logo.jpeg",
-      links: [],
-    },
+
   ],
 } as const;
