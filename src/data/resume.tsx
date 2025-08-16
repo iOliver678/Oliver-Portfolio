@@ -117,7 +117,7 @@ export const DATA = {
       dates: "March 2025 - April 2025",
       active: true,
       description:
-        "Nova is an **AI-powered chatbot platform** designed to retrieve and synthesize information from multiple connected data sources in real time. It leverages an **MCP client–server framework** to handle data aggregation and insight generation, supporting multi-user workspaces with live updates. The system’s optimized processing workflow reduced average end-to-end latency from **210 seconds to 65 seconds**, enabling faster, more responsive interactions. Built with a focus on scalability, security, and seamless multi-source integration.",
+        "Nova is an **AI-powered CRM layer** designed to integrate and analyze data from multiple sources in real time. It utilizes an **MCP client–server framework** to facilitate data consolidation and insight generation, supporting multi-user workspaces with live updates. The system’s optimized processing workflow reduced average end-to-end latency from **210 seconds to 65 seconds**, enabling faster, more responsive interactions. Built with a focus on scalability, security, and seamless multi-source integration.",
       technologies: [
         "React",
         "FastMCP",
